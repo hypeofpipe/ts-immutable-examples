@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "@types/lodash": "^4.14.130",
+    "@types/seamless-immutable": "^7.1.10",
+    "@types/signale": "^1.2.1",
+    "immer": "^3.1.2",
+    "immutable": "^4.0.0-rc.12",
+    "lodash": "^4.17.11",
+    "seamless-immutable": "^7.1.4",
+    "signale": "^1.4.0"
+  },
+  "scripts": {
+    "start:base": "ts-node ts-example/immutableBase.ts",
+    "start:immutable": "ts-node --target es2015 ts-example/immutable.ts",
+    "start:si": "ts-node ts-example/seamlessmutability.ts",
+    "start:immer": "ts-node ts-example/immerimmutability.ts"
+  }
+}
